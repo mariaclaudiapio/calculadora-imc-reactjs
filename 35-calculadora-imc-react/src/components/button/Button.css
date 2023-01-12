@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #090e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #f44236;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+}
+button:hover {
+  opacity: 1;
+}
+
+#clear-btn {
+  background-color: #444444;
+}/*# sourceMappingURL=Button.css.map */
