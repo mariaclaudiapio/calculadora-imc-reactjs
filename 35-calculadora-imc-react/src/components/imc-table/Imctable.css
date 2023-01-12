@@ -1,1 +1,96 @@
-/*# sourceMappingURL=Imctable.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #090e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+@media (max-width: 450px) {
+  body {
+    background-color: #1d1e33;
+  }
+}
+#result-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#result-container h3 {
+  margin-top: 1rem;
+  color: #dfdfdf;
+}
+
+#imc-number {
+  font-size: 2.4rem;
+  margin-botton: 0.6rem;
+}
+
+#imc-info {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+#imc-table {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.table-header {
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444444;
+}
+
+.table-header h4,
+.table-data p {
+  flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+  max-width: 80px;
+}
+
+#back-btn {
+  align-self: center;
+}
+
+.good {
+  color: #12db34;
+}
+
+.low {
+  color: #dbce12;
+}
+
+.medium {
+  color: #db6212;
+}
+
+.high {
+  color: #db1912;
+}
+
+@media (max-width: 450px) {
+  h4,
+p {
+    font-size: 14.5px;
+  }
+}/*# sourceMappingURL=Imctable.css.map */

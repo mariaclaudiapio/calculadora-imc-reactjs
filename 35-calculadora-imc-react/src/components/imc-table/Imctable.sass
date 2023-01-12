@@ -1,0 +1,62 @@
+@use '../../index'
+    
+#result-container
+    text-align: center
+    display: flex
+    flex-direction: column
+    h3
+        margin-top: 1rem
+        color: index.$tertiary-font-color
+
+#imc-number
+    font-size: 2.4rem
+    margin-botton: .6rem
+
+#imc-info
+    font-size: 1.4rem
+    color: index.$primary-font-color
+
+#imc-table
+    margin: 1.5rem 0
+    font-size: .8rem
+
+.table-header
+    font-weight: bold
+    color: index.$secondary-font-color
+    
+.table-header,
+.table-data
+    display: flex
+    justify-content: space-between
+    margin-bottom: .5rem
+    padding-bottom: .5rem
+    border-bottom: 1px solid index.$tertiary-bg-color
+
+.table-header h4,
+.table-data p
+    flex: 1
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3)
+    max-width: 80px
+
+#back-btn
+    align-self: center
+
+.good
+    color: index.$good-alert
+
+.low
+    color: index.$low-alert
+
+.medium
+    color: index.$medium-alert
+
+.high
+    color: index.$high-alert
+
+@media (max-width: 450px)
+    h4,
+    p
+        font-size: 14.5px
+
